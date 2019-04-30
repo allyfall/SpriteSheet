@@ -1,0 +1,43 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+li{
+	list-style: none;
+	display:inline-block;
+	padding:10px;
+	a{
+		display: inline-block;
+		width:150px;
+		height: 150px;
+		span{
+			position: absolute;
+			top:-9999em;
+			left: -9999em;
+		}
+	}
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-family:monospace;
+	color:white;
+	font-size:3em;
+}
+section{
+	width: 74%;
+	margin-left: 13%;
+	margin-top: 7%;
+	border:2px solid white;
+}
+
+body{
+	background:black;
+}
+
+footer{
+	p{
+		color:white;
+		font-family: monospace;
+		font-size: .8em;
+		text-align: center;
+	}
+}
